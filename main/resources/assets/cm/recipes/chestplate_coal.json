@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "R R",
+        "RRR",
+        "RRR"
+    ],
+    
+    "key":
+    {
+        "R":
+        {
+            "item": "cm:ingot_coal"
+        }
+    },
+    
+    "result":
+    {
+        "item": "cm:chestplate_coal",
+        "count": 1
+    }
+}

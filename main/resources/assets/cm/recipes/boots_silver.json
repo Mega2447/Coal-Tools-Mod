@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "   ",
+        "R R",
+        "R R"
+    ],
+    
+    "key":
+    {
+        "R":
+        {
+            "item": "cm:ingot_coal"
+        }
+    },
+    
+    "result":
+    {
+        "item": "cm:boots_coal",
+        "count": 1
+    }
+}

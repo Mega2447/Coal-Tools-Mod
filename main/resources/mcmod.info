@@ -1,0 +1,16 @@
+[
+{
+  "modid": "cm",
+  "name": "Coal Tools Mod",
+  "description": "Adds coal tools and armor to the game",
+  "version": "1.0.0",
+  "mcversion": "1.12.2",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Mega_CS", "B0bGary"],
+  "credits": "B0bGary for the textures and original idea",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

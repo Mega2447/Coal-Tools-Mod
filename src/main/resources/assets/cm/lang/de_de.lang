@@ -1,0 +1,21 @@
+ //Items
+item.ingot_coal.name=Kohlebarren
+
+//Tools
+item.sword_coal.name=Kohleschwert
+item.spade_coal.name=Kohleschaufel
+item.pickaxe_coal.name=Kohlespitzhacke
+item.axe_coal.name=Kohleaxt
+item.hoe_coal.name=Kohlehacke
+
+//Blocks
+tile.stairs_coal.name=Kohletreppe
+
+//Armor
+item.helmet_coal.name=Kohlehelm
+item.chestplate_coal.name=Kohleharnisch
+item.leggings_coal.name=Kohlebeinschutz
+item.boots_coal.name=Kohlestiefel
+
+//Misc
+itemGroup.modtab=Kohlewerkzeug

@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "R  ",
+        "RR ",
+        "RRR"
+    ],
+    
+    "key":
+    {
+        "R":
+        {
+            "item": "cm:ingot_coal"
+        }
+    },
+    
+    "result":
+    {
+        "item": "cm:stairs_coal",
+        "count": 1
+    }
+}

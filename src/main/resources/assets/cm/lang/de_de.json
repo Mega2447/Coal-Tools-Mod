@@ -1,0 +1,18 @@
+{
+  "item.cm.ingot_coal":"Kohlebarren",
+
+  "item.cm.sword_coal":"Kohleschwert",
+  "item.cm.spade_coal":"Kohleschaufel",
+  "item.cm.pickaxe_coal":"Kohlespitzhacke",
+  "item.cm.axe_coal":"Kohleaxt",
+  "item.cm.hoe_coal":"Kohlehacke",
+
+  "block.cm.stairs_coal": "Kohletreppe",
+
+  "item.cm.helmet_coal":"Kohlehelm",
+  "item.cm.chestplate_coal":"Kohleharnisch",
+  "item.cm.leggings_coal":"Kohlebeinschutz",
+  "item.cm.boots_coal":"Kohlestiefel",
+
+  "itemGroup.cm.general":"Kohlewerkzeug"
+}

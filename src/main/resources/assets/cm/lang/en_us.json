@@ -1,0 +1,18 @@
+{
+  "item.cm.ingot_coal":"Coal Ingot",
+
+  "item.cm.sword_coal":"Coal Sword",
+  "item.cm.spade_coal":"Coal Shovel",
+  "item.cm.pickaxe_coal":"Coal Pickaxe",
+  "item.cm.axe_coal":"Coal Axe",
+  "item.cm.hoe_coal":"Coal Hoe",
+
+  "block.cm.stairs_coal": "Coal Stairs",
+
+  "item.cm.helmet_coal":"Coal Helmet",
+  "item.cm.chestplate_coal":"Coal Chestplate",
+  "item.cm.leggings_coal":"Coal Leggings",
+  "item.cm.boots_coal":"Coal Boots",
+
+  "itemGroup.cm.general":"Coal Tools"
+}

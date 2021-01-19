@@ -1,5 +1,5 @@
 {
-    "parent": "minecraft:blocks/coal_block",
+    "parent": "cm:block/coal_stairs",
     "display": {
         "thirdperson": {
             "rotation": [ 10, -45, 170 ],

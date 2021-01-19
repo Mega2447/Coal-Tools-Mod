@@ -1,0 +1,18 @@
+{
+  "item.cm.ingot_coal":"Koltacka",
+
+  "item.cm.sword_coal":"Kolsvärd",
+  "item.cm.spade_coal":"Kolspade",
+  "item.cm.pickaxe_coal":"Kolhacka",
+  "item.cm.axe_coal":"Kolyxa",
+  "item.cm.hoe_coal":"Kolflåhacka",
+
+  "block.cm.stairs_coal": "Koltrappa",
+
+  "item.cm.helmet_coal":"Kolhjälm",
+  "item.cm.chestplate_coal":"Kolharnesk",
+  "item.cm.leggings_coal":"Kolbyxor",
+  "item.cm.boots_coal":"Kolstövlar",
+
+  "itemGroup.cm.general":"Kolverktyg"
+}

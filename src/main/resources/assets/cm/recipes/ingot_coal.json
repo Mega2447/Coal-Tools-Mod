@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:smelting",
-  "ingredient": {
-    "item": "minecraft:coal_block"
-  },
-  "result": "minecraft:ingot_coal",
-  "experience": 0.3,
-  "cookingtime": 200
-}

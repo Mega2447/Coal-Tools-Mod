@@ -52,19 +52,19 @@ public class ModItems {
     }
 
     private static void fuelRegistryInit(){
-        FuelRegistry.INSTANCE.add(INGOT_COAL, 800);
+        FuelRegistry.INSTANCE.add(INGOT_COAL, 16000);
 
-        FuelRegistry.INSTANCE.add(COAL_PICKAXE, 400);
-        FuelRegistry.INSTANCE.add(COAL_AXE, 400);
-        FuelRegistry.INSTANCE.add(COAL_SHOVEL, 400);
-        FuelRegistry.INSTANCE.add(COAL_SWORD, 400);
-        FuelRegistry.INSTANCE.add(COAL_HOE, 400);
+        FuelRegistry.INSTANCE.add(COAL_PICKAXE, 8000);
+        FuelRegistry.INSTANCE.add(COAL_AXE, 8000);
+        FuelRegistry.INSTANCE.add(COAL_SHOVEL, 8000);
+        FuelRegistry.INSTANCE.add(COAL_SWORD, 8000);
+        FuelRegistry.INSTANCE.add(COAL_HOE, 8000);
 
-        FuelRegistry.INSTANCE.add(COAL_HELMET, 500);
-        FuelRegistry.INSTANCE.add(COAL_CHESTPLATE, 500);
-        FuelRegistry.INSTANCE.add(COAL_LEGGINGS, 500);
-        FuelRegistry.INSTANCE.add(COAL_BOOTS, 500);
+        FuelRegistry.INSTANCE.add(COAL_HELMET, 10000);
+        FuelRegistry.INSTANCE.add(COAL_CHESTPLATE, 10000);
+        FuelRegistry.INSTANCE.add(COAL_LEGGINGS, 10000);
+        FuelRegistry.INSTANCE.add(COAL_BOOTS, 10000);
 
-        FuelRegistry.INSTANCE.add(STAIRS_COAL, 800);
+        FuelRegistry.INSTANCE.add(STAIRS_COAL, 16000);
     }
 }

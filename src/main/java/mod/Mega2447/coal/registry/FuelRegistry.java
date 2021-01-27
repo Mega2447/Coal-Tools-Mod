@@ -28,9 +28,9 @@ public class FuelRegistry {
         List<Item> armorList = Arrays.asList(ModItems.coalHelmet, ModItems.coalChestplate, ModItems.coalLeggings, ModItems.coalBoots);
         List<Item> toolList = Arrays.asList(ModItems.coalAxe, ModItems.coalHoe, ModItems.coalSword, ModItems.coalShovel, ModItems.coalPickaxe);
 
-        if(armorList.contains(item)) event.setBurnTime(500);
-        else if(toolList.contains(item)) event.setBurnTime(400);
-        else if(item == ModItems.coalIngot) event.setBurnTime(800);
-        else if(item == ModBlocks.coalStairs.asItem()) event.setBurnTime(800);
+        if(armorList.contains(item)) event.setBurnTime(10000);
+        else if(toolList.contains(item)) event.setBurnTime(8000);
+        else if(item == ModItems.coalIngot) event.setBurnTime(16000);
+        else if(item == ModBlocks.coalStairs.asItem()) event.setBurnTime(16000);
     }
 }

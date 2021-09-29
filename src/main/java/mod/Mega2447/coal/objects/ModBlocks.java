@@ -1,20 +1,21 @@
 package mod.Mega2447.coal.objects;
 
 import mod.Mega2447.coal.CoalToolsMod;
-import net.minecraft.block.*;
-import net.minecraft.block.material.Material;
-import net.minecraft.block.material.MaterialColor;
-import net.minecraft.item.BlockItem;
-import net.minecraft.item.Item;
+import net.minecraft.world.item.BlockItem;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.StairBlock;
 import net.minecraftforge.registries.IForgeRegistry;
 
 public class ModBlocks {
 
-    public static Block coalStairs;
+    @SuppressWarnings("deprecation")
+    public static Block coalStairs = new StairBlock(Blocks.COAL_BLOCK.defaultBlockState(), Block.Properties.copy(Blocks.COAL_BLOCK));
 
-    public static void register(IForgeRegistry<Block> registry) {
+	public static void register(IForgeRegistry<Block> registry) {
         registry.registerAll(
-                coalStairs = new StairsBlock(() -> Blocks.COAL_BLOCK.getDefaultState(), AbstractBlock.Properties.create(Material.ROCK, MaterialColor.BLACK)).setRegistryName("stairs_coal")
+                coalStairs.setRegistryName("stairs_coal")
         );
     }
 
@@ -25,6 +26,6 @@ public class ModBlocks {
     }
 
     private static Item.Properties createItemProperties(){
-        return new Item.Properties().group(CoalToolsMod.itemGroup);
+        return new Item.Properties().tab(CoalToolsMod.itemGroup);
     }
 }

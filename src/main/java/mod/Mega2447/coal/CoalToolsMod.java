@@ -3,10 +3,10 @@ package mod.Mega2447.coal;
 import mod.Mega2447.coal.objects.ModBlocks;
 import mod.Mega2447.coal.objects.ModItems;
 import mod.Mega2447.coal.registry.FuelRegistry;
-import net.minecraft.block.Block;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroup;
-import net.minecraft.item.ItemStack;
+import net.minecraft.world.level.block.Block;
+import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.ItemStack;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -17,13 +17,8 @@ import net.minecraftforge.fml.common.Mod;
 public class CoalToolsMod {
 
     public static final String MOD_ID = "cm";
-
-    public static final ItemGroup itemGroup = new ItemGroup(MOD_ID) {
-        @Override
-        public ItemStack createIcon() {
-            return new ItemStack(ModItems.coalIngot);
-        }
-    };
+    
+    public static final CreativeModeTab itemGroup = new ModItemGroup(MOD_ID, new ItemStack(ModItems.coalIngot));
 
     public CoalToolsMod(){
         MinecraftForge.EVENT_BUS.register(new FuelRegistry()); //custom registry for fuel

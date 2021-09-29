@@ -1,13 +1,13 @@
 package mod.Mega2447.coal.objects.armor;
 
 import mod.Mega2447.coal.objects.ModItems;
-import net.minecraft.inventory.EquipmentSlotType;
-import net.minecraft.item.IArmorMaterial;
-import net.minecraft.item.crafting.Ingredient;
-import net.minecraft.util.SoundEvent;
-import net.minecraft.util.SoundEvents;
+import net.minecraft.world.entity.EquipmentSlot;
+import net.minecraft.world.item.ArmorMaterial;
+import net.minecraft.world.item.crafting.Ingredient;
+import net.minecraft.sounds.SoundEvent;
+import net.minecraft.sounds.SoundEvents;
 
-public class CoalArmorMaterial implements IArmorMaterial {
+public class CoalArmorMaterial implements ArmorMaterial {
 
     private int durability;
     private int damageReductionAmount[];
@@ -23,28 +23,28 @@ public class CoalArmorMaterial implements IArmorMaterial {
         name = nameIn;
     }
     @Override
-    public int getDurability(EquipmentSlotType slotIn) {
+    public int getDurabilityForSlot(EquipmentSlot slotIn) {
         return durability;
     }
 
     @Override
-    public int getDamageReductionAmount(EquipmentSlotType slotIn) {
-        return damageReductionAmount[slotIn.getSlotIndex() - 1];
+    public int getDefenseForSlot(EquipmentSlot slotIn) {
+        return damageReductionAmount[slotIn.getIndex()];
     }
 
     @Override
-    public int getEnchantability() {
+    public int getEnchantmentValue() {
         return enchantability;
     }
 
     @Override
-    public SoundEvent getSoundEvent() {
-        return SoundEvents.ITEM_ARMOR_EQUIP_GENERIC;
+    public SoundEvent getEquipSound() {
+        return SoundEvents.ARMOR_EQUIP_GENERIC;
     }
 
     @Override
-    public Ingredient getRepairMaterial() {
-        return Ingredient.fromItems(ModItems.coalIngot);
+    public Ingredient getRepairIngredient() {
+        return Ingredient.of(ModItems.coalIngot);
     }
 
     @Override
@@ -54,7 +54,7 @@ public class CoalArmorMaterial implements IArmorMaterial {
 
     @Override
     public float getToughness() {
-        return 0;
+        return toughness;
     }
 
     @Override

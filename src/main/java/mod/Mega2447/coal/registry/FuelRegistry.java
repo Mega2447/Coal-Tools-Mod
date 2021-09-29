@@ -2,8 +2,8 @@ package mod.Mega2447.coal.registry;
 
 import mod.Mega2447.coal.objects.ModBlocks;
 import mod.Mega2447.coal.objects.ModItems;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemStack;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.ItemStack;
 import net.minecraftforge.event.furnace.FurnaceFuelBurnTimeEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;

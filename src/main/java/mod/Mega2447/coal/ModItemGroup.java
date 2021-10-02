@@ -5,7 +5,6 @@ import javax.annotation.Nonnull;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
 
-
 public class ModItemGroup extends CreativeModeTab{
 	
 	private ItemStack icon;

@@ -18,10 +18,13 @@ public class CoalToolsMod {
 
     public static final String MOD_ID = "cm";
     
-    public static final CreativeModeTab itemGroup = new ModItemGroup(MOD_ID, new ItemStack(ModItems.coalIngot));
+    public static CreativeModeTab itemGroup;
 
     public CoalToolsMod(){
         MinecraftForge.EVENT_BUS.register(new FuelRegistry()); //custom registry for fuel
+        //ModItems.assignItemValues();
+        itemGroup = new ModItemGroup(MOD_ID, new ItemStack(ModItems.coalIngot));
+        ModItems.assignItemValues();
     }
 
     @SubscribeEvent
